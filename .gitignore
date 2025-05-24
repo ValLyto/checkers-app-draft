@@ -1,15 +1,38 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration file (SDK path, etc)
+local.properties
+
+# IntelliJ IDEA files
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+.idea/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# OS generated files
 .DS_Store
-/build
+Thumbs.db
+
+# Log and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Capture folder
 /captures
+
+# External native build
 .externalNativeBuild
 .cxx
-local.properties
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/
